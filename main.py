@@ -106,7 +106,7 @@ class Game:
             timer.update()
 
     def import_assets(self):
-        current_folder = 'MBGpedia'
+        current_folder = 'mbg_pedia'
         self.back_surfs = folder_importer(current_folder, 'images', 'front')
         self.front_surfs = folder_importer(current_folder, 'images', 'reverse')
         self.bg_surfs = folder_importer(current_folder, 'images', 'other')
